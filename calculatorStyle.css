@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ebfaeb;
+  padding-top: 100px;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#screendiv {
+  height: 80px;
+  width: 280px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #b3b3b3;
+  box-shadow: inset 0 0 10px 2px #8c8c8c;
+}
+
+#outputscreenup {
+  height: 20px;
+  width: 260px;
+  margin: 11px 10px 0px 8px;
+  text-align: right;
+  color: #808080;
+  font-size: 16px;
+  background-color: #ccffee;
+  border-bottom: none;
+}
+
+#outputscreendown {
+  height: 30px;
+  width: 260px;
+  margin: 0px 10px 9px 8px;
+  text-align: right;
+  border-top: none;
+  font-size: 22px;
+  color: #333333;
+  background-color: #ccffee;
+  font-family: "orbitron", sans-serif;
+  font-weight: bold;
+}
+
+input {
+  outline: none !important;
+}
+
+#caldiv {
+  background-color: #666666;
+  height: 410px;
+  width: 320px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: inset 0 0 15px 2px #000000;
+}
+
+#keydiv {
+  height: 280px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+#keydiv1 {
+  height: 250px;
+  width: 218px;
+  padding-top: 15px;
+  padding-left: 20px;
+  float: left;
+}
+
+#keydiv2 {
+  height: 250px;
+  width: 60px;
+  margin-right: 20px;
+  padding-top: 15px;
+  float: right;
+}
+
+button {
+  height: 40px;
+  width: 60px;
+  font-family: "Sarpanch", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-left: 1px;
+  margin-bottom: 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: inset -3px -5px 2px 1px #515151;
+  cursor: pointer;
+}
+
+button {
+  outline: none !important;
+}
+
+#keydiv1 button {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.operatorbutton {
+  background-color: #66ffcc;
+  box-shadow: inset -3px -5px 2px 1px #006644;
+}
+
+#zerobutton {
+  width: 127px;
+}
+
+#equalbutton {
+  height: 90px;
+  width: 58px;
+  background-color: #cf4a64;
+  margin-left: 3px;
+  box-shadow: inset -3px -5px 2px 1px #782131;
+}
+
+.redbutton {
+  background-color: #cf4a64;
+  box-shadow: inset -3px -5px 2px 1px #782131;
+}
+
+button:active {
+  box-shadow: inset 0 0 0 0 #515151;
+  outline: none !important;
+}
+
+#equalbutton:active,
+#equalbutton:visited {
+  box-shadow: inset 0 0 0 0 black;
+  outline: none !important;
+}
